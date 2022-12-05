@@ -1,0 +1,147 @@
+/* HEADER-BUTTON */
+
+.button {
+    font-family: Nunito-Sans, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 13px 33px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    background-color: #E3B873;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #E3D7AA;
+}
+
+.header-button {
+    box-shadow: 0 5px 20px rgb(227, 184, 115, .2);
+}
+
+
+
+/* MAIN-BUTTON */
+
+
+
+.first-button-central-block {
+    padding: 19px 41px;
+    margin-right: 20px;
+    width: 207px;
+}
+
+.second-button-central-block {
+    padding: 19px 22px;
+    background: none;
+    width: 207px;
+    border: 1px solid #fff;
+}
+
+.second-button-central-block:hover {
+    background-color: #131313;
+}
+
+
+
+/* BUTTON-ONLINE-CONTROL-FORM */
+
+
+
+.button-control {
+    width: 200px;
+    height: 51px;
+    font-size: 13px;
+    font-style: normal;
+}
+
+
+
+/* BUTTON-THESES */
+
+
+
+.button-thesis {
+    align-self: flex-end;
+    width: 213px;
+    height: 51px;
+    font-size: 13px;
+    line-height: 21.28px;
+}
+
+
+/* QUESTIONS-BUTTON */
+
+
+
+.question-button {
+    margin-top: 50.45px;
+    width: 200px;
+    height: 51px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 26.6px;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+}
+
+
+
+/* MOBILE-VERSION */
+
+
+
+@media screen and (max-width: 1300px) {
+
+    /* HEADER-BUTTON */
+
+    .header-button {
+        display: none;
+    }
+
+
+
+    /* MAIN-BUTTON */
+
+
+
+    .first-button-central-block {
+        width: 338.61px;
+        height: 51px;
+        margin-right: 0px;
+    }
+
+    .second-button-central-block {
+        width: 338.61px;
+        height: 51px;
+        margin: 26px 0px 61px;
+    }
+
+
+
+    /* ONLINE-CONTROL-BUTTON */
+
+
+    
+    .button-control {
+        width: 100%;
+        max-width: 340px;
+        height: 51px;
+        margin-top: 43.96px;
+    }
+
+
+
+    /* QUESTIONS-BUTTON */
+
+
+    .question-button {
+        margin-top: 67.33px;
+        width: 100%;
+        max-width: 340px;
+        height: 51px;
+    }
+}

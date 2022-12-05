@@ -1,0 +1,40 @@
+/* HEADER */
+
+
+
+.header {
+    display: block;
+    background-color: black;
+}
+
+.header-conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 83px;
+    max-width: 1169px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+a {
+    cursor: pointer;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #E3B873;
+}
+
+.number:hover {
+    text-decoration: underline;
+}
