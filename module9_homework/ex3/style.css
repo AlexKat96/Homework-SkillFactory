@@ -1,0 +1,42 @@
+.input-request {
+  display: flex;
+  margin-left: 20px;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: 3px solid black;
+}
+
+.button-request {
+  background-color: black;
+  color: white;
+  border: none;
+  box-shadow: none;
+  margin: 50px 20px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.button-request:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.result-request {
+  margin-left: 20px;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
