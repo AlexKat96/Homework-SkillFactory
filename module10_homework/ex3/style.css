@@ -1,0 +1,92 @@
+.main-block{
+    width: 492px;
+    border: 2px solid blue;
+    background-color: #ffffbb;
+}
+  
+.main-chat {
+    width: 472px;
+    border-bottom: 2px solid blue;
+    min-height: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #ffffbb;
+}
+  
+.main-input {
+    padding-left: 5px;
+    border: 2px solid blue;
+    height: 24px;
+    width: 270px;
+    margin-right: 5px;
+    outline: none;
+    background-color: #ffffbb;
+}
+  
+.button {
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: #2426BC;
+    border: #2426BC;
+    border-radius: 5px;
+}
+  
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+  
+.button-send {
+    margin-right: 5px;
+}
+  
+.main-result {
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    min-height: 300px;
+    width: 468px;
+}
+  
+.attribute {
+    padding: 7px;
+    text-align: start;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 7px;
+    min-height: 20px;
+    word-wrap: break-word;
+}
+  
+.client-attribute {
+    align-self: flex-end;
+    margin-right: 10px;
+    background-color: #C0C0C0;
+}
+  
+.server-attribute {
+    align-self: flex-start;
+    margin-left: 10px;
+    background-color: #66cc66;
+}
+  
+.geolocation-attribute {
+    text-decoration: none;
+    color: blue;
+}
+  
+.geolocation-attribute:hover {
+    text-decoration: underline;
+}
+  
