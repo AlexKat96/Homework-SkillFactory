@@ -1,0 +1,313 @@
+/* FORM-ONLINE-CONTROL */
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs-button {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label-control {
+    font-size: 12px;
+    line-height: 21.28px;
+    color: rgba(54, 54, 54, 0.5);
+    padding-left: 2px;
+}
+
+.input-control {
+    font-family: Nunito-Sans, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 22.92px;
+    color: #363636;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    margin-right: 58px;
+    outline: none;
+}
+
+.input-control::placeholder {
+    font-family: Nunito-Sans, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 22.92px;
+    color: #363636;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.checkbox-1 {
+    font-size: 14px;
+    line-height: 22.92px;
+    color: #181818;
+}
+
+.custom-checkbox:checked + label::before {
+    border-color: #E3B873;
+    background-color: #E3B873;
+    background-image: url(../images/checkbox.svg);
+}
+
+.custom-checkbox + label::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #808080;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    border-radius: 1px;
+}
+
+
+/* FORM-THESES */
+
+
+.form-theses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.input-label-thesis {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+}
+
+.input-label-thesis-2 {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    margin: 48px 0px;
+}
+
+.label-thesis {
+    font-size: 13px;
+    line-height: 21.28px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 2px;
+    margin-bottom: 7px;
+}
+
+.input-thesis {
+    font-family: Nunito-Sans, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22.92px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 58px;
+    background-color: #131313;
+    color: #fff;
+    outline: none;
+}
+
+.input-thesis::placeholder {
+    font-family: Nunito-Sans, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22.92px;
+    color: #fff;
+}
+
+.thesis-checkbox {
+    margin-top: 17.76px;
+}
+
+.checkbox-2 {
+    font-size: 14px;
+    line-height: 22.92px;
+    color: #fff;
+}
+
+
+
+/* FORM-QUESTIONS */
+
+
+
+.form-quest {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 506px;
+    height: 232.83px;
+    margin: 0;
+}
+
+.question-input {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-input {
+    width: 231px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.label-quest {
+    font-size: 13px;
+    line-height: 21.28px;
+    margin: 0;
+}
+
+.input-quest {
+    margin: 0;
+    padding-bottom: 2.2px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.position-input-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 46.46px;
+}
+
+.checkbox-questions {
+    margin-top: 0;
+    justify-content: center;
+}
+
+.checkbox-3 {
+    font-size: 14px;
+    line-height: 22.92px;
+}
+
+
+
+/* MOBILE-VERSION */
+
+
+
+@media screen and (max-width: 1300px) {
+
+    /* FORM-ONLINE-CONTROL */
+
+    .inputs-button {
+        width: 100%;
+        max-width: 340px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .label-control {
+        font-size: 13px;
+        line-height: 21.28px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 6px;
+    }
+
+    .input-label {
+        margin-bottom: 63px;
+    }
+
+    .input-control {
+        background-color: #131313;
+        font-size: 14px;
+        line-height: 19.42px;
+        padding: 0;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        margin: 0;
+    }
+
+    .input-control::placeholder {
+        font-family: Nunito-Sans, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 19.42px;
+        color: #fff;
+    }
+
+    .online-checkbox {
+        margin-top: -113.43px;
+        width: 100%;
+        max-width: 340px;
+        align-items: center;
+    }
+
+    .checkbox-1 {
+        text-align: center;
+        color: #fff;
+    }
+
+
+
+    /* QUESTION-FORM */
+
+
+
+    .form-quest {
+        height: auto;
+    }
+
+    .question-input {
+        width: 100%;
+        max-width: 340px;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .upper-input {
+        flex-direction: column;
+    }
+
+    .position-input {
+        width: 100%;
+        margin-bottom: 63px;
+    }
+
+    .input-quest {
+        border-bottom: 1px solid #fff;
+    }
+
+    .position-input-1 {
+        margin-bottom: 21.63px;
+    }
+
+    .checkbox-questions {
+        width: 100%;
+        max-width: 340px;
+        font-size: 14px;
+        justify-content: flex-start;
+    }
+}
