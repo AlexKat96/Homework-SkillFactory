@@ -1,0 +1,197 @@
+.rate_main {
+    padding-left: 30px;
+}
+
+.rate_cost {
+    height: 66px;
+}
+
+.rate_price {
+    display: flex;
+}
+
+.new_price {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36.31px;
+    padding-top: 33px;
+}
+
+.old_price {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30.26px;
+    padding: 36px 0 0 19px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.installment_plan {
+    margin: 0;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;  
+}
+
+.rate_description {
+    margin: 0;
+    padding-top: 91px;
+}
+
+.rate_description_caption {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px; 
+}
+
+.list {
+    margin: 0;
+    padding-left: 30px;
+    list-style-image: url(../../../../../public/pictures/Home/markerImg.svg);
+}
+
+.marker {
+    padding: 5px 0 5px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px; 
+}
+
+.rate_header_content_left {
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rate_header_caption {
+    width: 290px;
+    padding: 30px 0 0 30px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36.31px;
+}
+
+.rate_header_description {
+    margin: 0;
+    width: 290px;
+    padding: 10px 0 0 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+.rate {
+    box-shadow: 0 0 20px rgb(0, 0, 0, .2);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    letter-spacing: 0.01em;
+    width: 415px;
+    height: 540px;
+    background-clip: content-box, padding-box;
+}
+
+.button_rate {
+    color: white;
+    width: 335px;
+    height: 59px;
+    font-size: 22px;
+    line-height: 27px;
+    border: none;
+    letter-spacing: 0.01em;
+    margin-top: 30px;
+}
+
+.rate_header_1 {
+    background-color: #FFB64F;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+
+.rate_header_img_1 {
+    height: 132px;
+    width: 100%;
+    background: url(../../../../../public/pictures/Home/lamp.svg) no-repeat center center;
+}
+
+@media (max-width: 700px) {
+    
+    .rate {
+        margin-top: 50px;
+        box-shadow: 0 0 20px rgb(0, 0, 0, .2);
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        letter-spacing: 0.01em;
+        width: 335px;
+        height: 512px;
+        background-clip: content-box, padding-box;
+    }
+
+    .rate_header_1 {
+        height: 132px;
+    }
+
+    .rate_header_caption {
+        width: 290px;
+        padding: 30px 0 0 24px;
+        margin: 0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .rate_header_description {
+        margin: 0;
+        padding: 22px 0 0 24px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .rate_header_img_1 {
+        margin-left: -60px;
+        margin-top: -30px;
+        background: url(../../../../../public/pictures/Home/mobile/lampMobile.svg) no-repeat center center;
+    }
+
+    .rate_main {
+        padding-left: 1px;
+        padding-right: 10px;
+    }
+
+    .rate_cost {
+        margin-left: 20px;
+    }
+
+    .rate_description_caption {
+        padding-left: 24px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .list {
+        padding-left: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.36px;
+        list-style-image: url(../../../../../public/pictures/Home/mobile/markerMobile.svg);
+    }
+
+    .marker {
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+
+    .button_rate {
+        margin: 0;
+        width: 287px;
+        height: 59px;
+        margin: 10px 0 0 24px;
+    }
+}

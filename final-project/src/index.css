@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "ferry";
+    src: url(./fonts/Ferry-Black.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+  
+.font-ferry{
+    font-family: "ferry";
+}
+  
+.font-inter {
+    font-family: "inter";
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,254 @@
+.login_container {
+    width: 100%;
+    height: 672px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentContainer {
+   flex-direction: column;
+}
+
+.login_caption {
+    text-transform: uppercase;
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.login_img {
+    margin-top: -50px;
+    height: 500px;
+    width: 400px;
+    background: url(../../../public/pictures/Login/LoginImage.svg) center no-repeat no-repeat;
+}
+
+.login_img_mobile {
+    display: none;
+}
+
+.form {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 0 25px 0 25px; 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 429px;
+    height: 523px;
+    margin-top: 18px;
+}
+
+.links_container {
+    padding-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #029491;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    
+    width: 150px;
+    border-bottom:  2px #029491 solid;
+    height: 30px;
+}
+
+.link1 {
+    color: inherit;
+    text-decoration: none;
+    line-height: normal;
+    padding-right: 0;
+}
+
+.registate {
+    width: 213px;
+    border-bottom:  2px #C7C7C7 solid;
+}
+
+.link2 {
+    color: inherit;
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+.login {
+    margin-top: 40px;
+}
+
+.label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    width: 379px;;
+    height: 43px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.button_service {
+    color: white;
+    width: 379px;
+    height: 59px;
+    font-size: 22px;
+    line-height: 27px;
+    border: none;
+    letter-spacing: 0.01em;
+    margin: 0 auto;
+}
+
+.button_service:disabled {
+    opacity: 0.5;
+}
+
+.button_login {
+    background-color: #fff;
+    width: 96px;
+    height: 31px;
+    letter-spacing: 0.01em;
+    margin: 0;
+    border-color: rgb(89, 112, 255, 0.51);;
+}
+
+.link3 {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #5970FF;
+}
+
+.entrance {
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+}
+
+.options {
+    margin-top: 15px; 
+    display: flex;
+    justify-content:space-between;
+}
+
+.err {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FF5959;
+}
+
+.input:required {
+    background: #FFFFFF;
+    border: 1px solid #FF5959;
+    box-shadow: 0px 0px 20px rgba(255, 89, 89, 0.2);
+    border-radius: 5px;
+}
+
+@media screen and (width < 1200px) {
+
+    .login_container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerLoginCaption {
+        text-align: center;
+    }
+
+    .login_img {
+        display: none;
+    }
+
+    .login_img_mobile {
+        display: block;
+        margin-top: -50px;
+        height: 500px;
+        width: 400px;
+        background: url(../../../public/pictures/Login/LoginImage.svg) center no-repeat no-repeat;
+    }
+
+    .form {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (width < 800px) {
+
+    .containerLoginCaption {
+        margin-top: 31px;
+    }
+
+    .login_caption {
+        font-size: 22px;
+        line-height: 26.4px;
+    }
+
+    .form {
+       width: 335px; 
+    }
+
+    .block {
+        width: 103px;
+    }
+
+    .link1 {
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .registate {
+        width: 182px;
+    }
+
+    .link2 {
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .input {
+        width: 335px; 
+    }
+
+    .button_service {
+        width: 335px;
+    }
+}
